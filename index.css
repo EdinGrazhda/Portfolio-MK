@@ -1,0 +1,82 @@
+:root{
+    font-family: "Inter", sans-serif;
+}
+#divikryesor1{
+    width:100%;
+    height:100%;
+    margin:auto;
+}
+#divikryesor2{
+    width:100%;
+    height: 24%;
+}
+#div2{
+    width: 100%;
+    background: #0084FF;
+    color: white;
+    padding: 2% 0 2% 0;
+}
+#p1{
+    float: left;
+    padding-left: 5%;
+}
+#p2{
+    float: left;
+    padding-left: 50%;
+}
+#p3{
+    float: left;
+    padding-left: 5%;
+}
+#p4{
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#lightning{
+    transform: rotate(21deg);
+    margin: 8% 0% 0% 38%;
+    position: absolute;
+    z-index: -1;
+    width: 18%;
+}
+#p6{
+    font-size: 300%;
+    position: absolute;
+    z-index: 1;
+    margin: 10% 0% 0% 13%;
+}
+#p7{
+    font-size: 350%;
+    position: absolute;
+    z-index: 1;
+    margin: 14% 0% 0% 13%;
+}
+#p8{
+    font-size: 130%;
+    position: absolute;
+    z-index: 1;
+    margin: 20% 0% 0% 13%;
+}
+#logos{
+    margin: 32% 0% 0% 13%;
+}
+#ig{
+    float: left;
+    width: 5%;
+}
+#fb{
+    float: left;
+    padding-left: 2%;
+    width: 5%;
+}
+#linkedin{
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 5%;
+}
+#sch{
+    float: left;
+    width: 5%;
+}
