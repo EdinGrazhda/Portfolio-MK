@@ -1,37 +1,41 @@
-:root{
+body{
     font-family: "Inter", sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
 }
 #divikryesor1{
+    max-width: 100%;
     width:100%;
     height:100%;
     margin:auto;
 }
 #divikryesor2{
+    max-width:100%;
     width:100%;
     height: 24%;
 }
 #div2{
+    max-width:100%;
     width: 100%;
     background: #0084FF;
     color: white;
-    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-#p1{
-    float: left;
-    padding-left: 5%;
+.buttons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
-#p2{
-    float: left;
-    padding-left: 50%;
+.buttons p{
+    margin-left:1px
 }
-#p3{
-    float: left;
-    padding-left: 5%;
-}
-#p4{
-    float: left;
-    padding-left: 5%;
-    padding-right: 5%;
+.emri{
+    padding:20px;
+    display: flex;
+    
 }
 #lightning{
     transform: rotate(21deg);
@@ -59,24 +63,21 @@
     margin: 20% 0% 0% 13%;
 }
 #logos{
-    margin: 32% 0% 0% 13%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 32%;
+    margin-left: 12%;
 }
-#ig{
-    float: left;
-    width: 5%;
+#logos i{
+    font-size: 80px;
+    color:yellow;
 }
-#fb{
-    float: left;
-    padding-left: 2%;
-    width: 5%;
-}
-#linkedin{
-    float: left;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 5%;
-}
-#sch{
-    float: left;
-    width: 5%;
+
+@media(max-width:767px){
+    .buttons{
+        flex-direction: column;
+        margin: auto;
+    }
+    
 }
