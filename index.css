@@ -4,80 +4,145 @@ body{
     margin:0;
     box-sizing: border-box;
 }
-#divikryesor1{
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:#0084FF ;
+    width:100%;
     max-width: 100%;
-    width:100%;
-    height:100%;
-    margin:auto;
 }
-#divikryesor2{
-    max-width:100%;
-    width:100%;
-    height: 24%;
+.navbar .navbar-list li{
+    list-style-type: none;
 }
-#div2{
-    max-width:100%;
-    width: 100%;
-    background: #0084FF;
-    color: white;
+.navbar-list{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.buttons{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-.buttons p{
-    margin-left:1px
-}
-.emri{
+    justify-content: start  ;
     padding:20px;
-    display: flex;
     
 }
-#lightning{
+.navbar-list li{
+    display: inline;
+    padding:20px;
+    font-size: 20px;
+}
+.navbar-list a{
+    text-decoration: none;
+    color:black;
+}
+.divi3{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 10%;
+    width:100%;
+    max-width: 100%;
+}
+.divi3 .image img{
+    transform: rotate(21deg);
+    position: absolute;
+    top:20%;
+    left:35%;
+    z-index: -1;
+    max-width: 100%;
+    width: 15%;
+}
+.divi3 .name h2{
+    font-size: 55px;
+}
+.divi3 .introduction h1{
+    font-size: 70px;
+}
+.introduction #p8{
+    width:60%;
+    max-width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+
+/* #lightning{
     transform: rotate(21deg);
     margin: 8% 0% 0% 38%;
     position: absolute;
     z-index: -1;
     width: 18%;
-}
-#p6{
+} */
+/* #p6{
     font-size: 300%;
     position: absolute;
     z-index: 1;
     margin: 10% 0% 0% 13%;
-}
-#p7{
-    font-size: 350%;
-    position: absolute;
-    z-index: 1;
-    margin: 14% 0% 0% 13%;
-}
-#p8{
-    font-size: 130%;
-    position: absolute;
-    z-index: 1;
-    margin: 20% 0% 0% 13%;
-}
+} */
+
+
 #logos{
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-top: 32%;
-    margin-left: 12%;
 }
 #logos i{
     font-size: 80px;
-    color:yellow;
+    color:rgb(236, 236, 71);
+    padding:10px;
 }
 
 @media(max-width:767px){
-    .buttons{
+    .navbar-list li{
+        display: flex;
         flex-direction: column;
+        text-align:center;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
         margin: auto;
     }
-    
+    .divi3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .divi3 .name h2{
+        font-size: 30px;
+    }
+    .divi3 .introduction h1{
+        font-size: 30px;
+    }
+    .introduction #p8{
+        width:100%
+    }
+    .introduction{
+        margin: auto;
+    }
+    .divi3 .image img{
+        transform: rotate(21deg);
+        position: absolute;
+        top:16%;
+        left:80%;
+        z-index: -1;
+        max-width: 100%;
+        width: 15%;
+    }
+    .h1{
+        text-align: center;
+    }
+    #p8{
+        text-align: center;
+    }
+    #logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #logos i{
+        font-size: 50px;
+    }
 }
