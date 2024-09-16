@@ -62,10 +62,6 @@ body{
     font-size: 30px;
     font-weight: 400;
 }
-
-
-
-
 /* #lightning{
     transform: rotate(21deg);
     margin: 8% 0% 0% 38%;
@@ -79,8 +75,6 @@ body{
     z-index: 1;
     margin: 10% 0% 0% 13%;
 } */
-
-
 #logos{
     display: flex;
     justify-content: start;
@@ -145,5 +139,165 @@ body{
     }
     #logos i{
         font-size: 50px;
+    }
+}
+
+
+
+
+.about-main {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto; 
+    border: 1px solid black;
+}
+
+.about {
+    flex: 1 1 60%; /* kjo esht searched*/
+    padding: 20px;
+}
+
+.about .heading p {
+    text-align: center;
+    color: #0084FF;
+    font-size: 48px; 
+    font-weight: 600;
+    margin-top: 4%;
+}
+
+.about .text2 p {
+    font-weight: 600;
+    font-size: 24px; 
+    margin: 20px auto;
+    max-width: 80%; 
+}
+
+.about2 {
+    background-color: #0084FF;
+    flex: 1 1 40%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.about2 .p10 {
+    font-size: 36px; 
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+.about2 .p11 {
+    font-size: 16px; 
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.about2 .p12 {
+    font-size: 72px; 
+    font-weight: 600;
+    margin-top: 20%;
+}
+
+.about2 .p13 {
+    font-size: 16px; 
+    font-weight: 600;
+    color: #FFAE00;
+    margin-top: -10px;
+}
+
+.about2 .butoni {
+    background-color: white;
+    color: #0084FF;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px; 
+    padding: 15px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.about2 .butoni:hover {
+    background-color: #f0f0f0;
+    color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .about-main {
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    .about {
+        width: 100%; /* Full width on small screens */
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about .heading p {
+        font-size: 36px; /* Smaller font size for smaller screens */
+    }
+
+    .about .text2 p {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        margin: 10px auto;
+    }
+
+    .about2 {
+        width: 100%; /* Full width on small screens */
+        padding: 10px;
+    }
+
+    .about2 .p10 {
+        font-size: 24px; /* Smaller font size for smaller screens */
+    }
+
+    .about2 .p11 {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .about2 .p12 {
+        font-size: 48px; /* Smaller font size for smaller screens */
+    }
+
+    .about2 .p13 {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .about2 .butoni {
+        font-size: 20px; /* Smaller font size for smaller screens */
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about .heading p {
+        font-size: 24px; /* Further reduce font size for very small screens */
+    }
+
+    .about .text2 p {
+        font-size: 16px; /* Further reduce font size for very small screens */
+    }
+
+    .about2 .p10 {
+        font-size: 20px; /* Further reduce font size for very small screens */
+    }
+
+    .about2 .p11 {
+        font-size: 12px; /* Further reduce font size for very small screens */
+    }
+
+    .about2 .p12 {
+        font-size: 36px; /* Further reduce font size for very small screens */
+    }
+
+    .about2 .p13 {
+        font-size: 12px; /* Further reduce font size for very small screens */
+    }
+
+    .about2 .butoni {
+        font-size: 16px; /* Further reduce font size for very small screens */
+        padding: 8px 16px;
     }
 }
